@@ -47,7 +47,7 @@ class SVD():
         n=self.n
         utb, utbs = self.picardparameter(AM,g)
         U,s,V=self.svdmatrix(AM)
-        lam = np.arange(0.00001,100,0.5)
+        lam = np.arange(0.01,10,0.5)
         lcurvex = np.zeros((len(lam),))
         lcurvey = np.zeros((len(lam),))
         for i in range(0,len(lam)):
