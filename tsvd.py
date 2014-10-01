@@ -6,7 +6,7 @@ lambdaarray = ['pdf/300.txt','pdf/350.txt','pdf/400.txt','pdf/450.txt','pdf/500.
               'pdf/650.txt','pdf/700.txt','pdf/750.txt','pdf/800.txt','pdf/850.txt','pdf/900.txt','pdf/950.txt',
               'pdf/1000.txt','pdf/1050.txt','pdf/1100.txt','pdf/1150.txt']
 
-# xarray=['-0.000000000000000000e+00','6.264896152536601759e-02','1.249574395641811358e-01','1.876064010895471812e-01','2.505958461014640704e-01','3.125638406537283309e-01',
+#xarray=['-0.000000000000000000e+00','6.264896152536601759e-02','1.249574395641811358e-01','1.876064010895471812e-01','2.505958461014640704e-01','3.125638406537283309e-01',
 #          '3.758937691521960778e-01','4.375212802179094251e-01','5.005107252298264253e-01','5.624787197820905194e-01','6.251276813074565508e-01',
 #          '6.874361593462717801e-01','7.507660878447396380e-01','8.127340823970038430e-01','8.750425604358188503e-01','9.376915219611848817e-01',
 #          '9.996595165134490868e-01']
@@ -29,7 +29,7 @@ for i in range(0,n):
 
 svdclass=SVD(n)
 f_tsvd = svdclass.f_tsvd(3,AM,g.T)
-f_tikhonov =svdclass.f_tikhonov(0.5,AM,g.T)
+f_tikhonov =svdclass.f_tikhonov(0.1,AM,g.T)
 lcurvex,lcurvey=svdclass.lcurve(AM,g.T)
 ginverse_tsvd = np.dot(AM,f_tsvd)
 ginverse_tikhonov = np.dot(AM,f_tikhonov)
@@ -44,12 +44,12 @@ ax = subplot(111)
 #ax.set_yscale('log')
 #ax.set_xscale('log')
 #ax.scatter(x,ginverse_tsvd,marker='o',label='tkhonov',color='black')
-ax.scatter(x,f_tsvd,marker='o',label='measured',color='red')
+ax.scatter(x,f_tikhonov,marker='o',label='measured',color='red')
 #ax.scatter(x,gm,marker='o',label='measured',color='green')
 #ax.scatter(x,abs(utbs),marker='x',label=r'$\left| u_{i}^{T}b \right|/{{\sigma }_{i}}$',color='red')
 #ax.scatter(x,s,label=r'$\sigma_{i}}$',marker='+',color='green',s=60)
 #ax.set_xlim([-1,20])
 ax.set_xlabel('i')
 ax.set_title('Collection Coefficient(Not Normalized)')
-legend = ax.legend(loc='upper left', shadow=True)
+#legend = ax.legend(loc='upper left', shadow=True)
 show()
