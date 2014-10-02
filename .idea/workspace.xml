@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25146fd-caba-467d-a8a6-ebdb87884a0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/1000.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/1050.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/1100.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/1150.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/300.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/350.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/400.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/450.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/500.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/550.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/600.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/650.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/700.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/750.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/800.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/850.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/900.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/950.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/singular value decompostion.py" afterPath="$PROJECT_DIR$/singular value decompostion.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e25146fd-caba-467d-a8a6-ebdb87884a0f" name="Default" comment="" />
     <ignored path="inverse problem.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,8 +39,8 @@
       <file leaf-file-name="singular value decompostion.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/singular value decompostion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62355214" vertical-offset="877" max-vertical-offset="1560">
-              <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.38372093" vertical-offset="777" max-vertical-offset="1560">
+              <caret line="65" column="20" selection-start-line="63" selection-start-column="7" selection-end-line="65" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -250,6 +229,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,9 +253,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -358,7 +337,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292232" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -373,8 +352,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -399,6 +378,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singular value decompostion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="877" max-vertical-offset="1560">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/300.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7714" max-vertical-offset="44145">
+          <caret line="1402" column="9" selection-start-line="1402" selection-start-column="9" selection-end-line="1402" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
@@ -467,20 +473,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/300.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7714" max-vertical-offset="44145">
           <caret line="1402" column="9" selection-start-line="1402" selection-start-column="9" selection-end-line="1402" selection-end-column="9" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/singular value decompostion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62355214" vertical-offset="877" max-vertical-offset="1560">
-          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.38372093" vertical-offset="777" max-vertical-offset="1560">
+          <caret line="65" column="20" selection-start-line="63" selection-start-column="7" selection-end-line="65" selection-end-column="20" />
           <folding />
         </state>
       </provider>
