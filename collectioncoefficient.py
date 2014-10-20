@@ -25,7 +25,7 @@ for i in range(0,n):
                 AM[i,j] = float(line.split()[1])*1.0/n
 svdclass=SVD(n)
 f_tsvd = svdclass.f_tsvd(3,AM,g.T)
-f_tikhonov =svdclass.f_tikhonov(0.3,AM,g.T)
+f_tikhonov =svdclass.f_tikhonov(0.4,AM,g.T)
 lcurvex,lcurvey=svdclass.lcurve(AM,g.T)
 ginverse_tsvd = np.dot(AM,f_tsvd)
 ginverse_tikhonov = np.dot(AM,f_tikhonov)
